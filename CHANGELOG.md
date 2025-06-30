@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-01)
+## Unreleased (2025-06-30)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`d847b9d`](https://github.com/stdlib-js/stdlib/commit/d847b9d41ade7bb54db00ef8d3a1a5938e4b5ffb) - **feat(stats):** add C implementation for `stats/base/dists/hypergeometric/stdev` [(#4559)](https://github.com/stdlib-js/stdlib/pull/4559) _(by Karan Anand, stdlib-bot)_
 -   [`b9bddfe`](https://github.com/stdlib-js/stdlib/commit/b9bddfefbcc4f301f5a63c9de30b2c11b13a989f) - **bench:** refactor random number generation in `stats/base/dists/hypergeometric` [(#4955)](https://github.com/stdlib-js/stdlib/pull/4955) _(by Karan Anand)_
 
