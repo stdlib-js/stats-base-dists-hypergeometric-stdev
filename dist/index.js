@@ -1,5 +1,27 @@
-"use strict";var u=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var i=u(function(o,t){
-var a=require('@stdlib/math-base-special-sqrt/dist'),n=require('@stdlib/stats-base-dists-hypergeometric-variance/dist');function v(e,r,s){return a(n(e,r,s))}t.exports=v
-});var c=i();module.exports=c;
 /** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
+
+'use strict';
+
+/**
+* Hypergeometric distribution standard deviation.
+*
+* @module @stdlib/stats-base-dists-hypergeometric-stdev
+*
+* @example
+* var stdev = require( '@stdlib/stats-base-dists-hypergeometric-stdev' );
+*
+* var v = stdev( 16, 11, 4 );
+* // returns ~0.829
+*
+* v = stdev( 2, 1, 1 );
+* // returns 0.5
+*/
+
+// MODULES //
+
+var main = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = main;
